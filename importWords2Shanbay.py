@@ -90,7 +90,7 @@ class shanbay:
         self.flush()
 
 def test():
-    cookie = "csrftoken=z2RXYbmBVWhHVzaO6HZKhSZerSxrq0dF; sessionid=nic6i3ugacya74qykwl00ha8ngsah22g; username=tony7day; userid=2515219; __utma=183787513.2130683209.1403576157.1403576157.1403663984.2; __utmb=183787513.16.10.1403663984; __utmc=183787513; __utmz=183787513.1403576157.1.1.utmcsr=baidu|utmccn=(organic)|utmcmd=organic|utmctr=%E6%89%87%E8%B4%9D"
+    cookie = "csrftoken=z2RXYbmBVWhHVzaO6HZKhSZerS; ...."
 
     s = shanbay(cookie)
     s.addWordsFromFile('words.txt')
