@@ -84,13 +84,9 @@ class shanbay:
         self.notFoundWords.extend(notFoundWords)
 
     def addWordsFromFile(self, filename):
-        count = 0
         with open(filename, 'r') as f:
             for word in f:
                 self.addWords(word)
-                #count += 1
-                if count >= 20:
-                    break
         self.flush()
 
 def test():
